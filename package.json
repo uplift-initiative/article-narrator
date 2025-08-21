@@ -1,0 +1,43 @@
+{
+  "name": "@uplift-initiative/article-narrator",
+  "version": "1.0.0",
+  "description": "A professional web component for article narration powered by Uplift AI",
+  "main": "dist/uplift-narrator.js",
+  "module": "dist/uplift-narrator.esm.js",
+  "browser": "dist/uplift-narrator.min.js",
+  "unpkg": "dist/uplift-narrator.min.js",
+  "jsdelivr": "dist/uplift-narrator.min.js",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "node scripts/build.js",
+    "dev": "node scripts/build.js --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "audio",
+    "narrator",
+    "article",
+    "web-component",
+    "uplift-ai",
+    "text-to-speech",
+    "tts",
+    "accessibility"
+  ],
+  "author": "Uplift AI",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uplift-initiative/article-narrator"
+  },
+  "bugs": {
+    "url": "https://github.com/uplift-initiative/article-narrator/issues"
+  },
+  "homepage": "https://upliftai.org",
+  "devDependencies": {
+    "esbuild": "^0.19.0"
+  }
+}
