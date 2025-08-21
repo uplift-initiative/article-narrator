@@ -10,7 +10,7 @@ Drop-in audio narration for any article. Transform your written content into eng
 2. **Add the script** to your page:
 
 ```html
-<script src="https://unpkg.com/uplift-narrator@latest"></script>
+<script src="https://d3bh4trxpt2avf.cloudfront.net/uplift-narrator.min.js"></script>
 <uplift-narrator></uplift-narrator>
 ```
 
@@ -28,7 +28,7 @@ That's it! The player automatically narrates the current page.
     <p>Your content here...</p>
   </article>
   
-  <script src="https://unpkg.com/uplift-narrator@latest"></script>
+  <script src="https://d3bh4trxpt2avf.cloudfront.net/uplift-narrator.min.js"></script>
   <uplift-narrator></uplift-narrator>
 </body>
 </html>
@@ -39,7 +39,7 @@ Add to your theme's `single.php` or `page.php`:
 
 ```php
 <?php if (is_single()) : ?>
-  <script src="https://unpkg.com/uplift-narrator@latest"></script>
+  <script src="https://d3bh4trxpt2avf.cloudfront.net/uplift-narrator.min.js"></script>
   <uplift-narrator></uplift-narrator>
 <?php endif; ?>
 ```
