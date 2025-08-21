@@ -92,11 +92,11 @@ class UpliftNarrator extends HTMLElement {
   }
 
   seek(event) {
-    if (!this.audio) return;
+    if (!this.audio || !this.duration || this.duration <= 0) return;
     
     const progressBar = this.shadowRoot.querySelector('.progress-bar');
     const rect = progressBar.getBoundingClientRect();
-    const percent = (event.clientX - rect.left) / rect.width;
+    const percent = Math.max(0, Math.min(1, (event.clientX - rect.left) / rect.width));
     
     this.audio.currentTime = percent * this.duration;
   }
