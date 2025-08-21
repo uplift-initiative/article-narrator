@@ -1,6 +1,6 @@
 {
   "name": "@uplift-initiative/article-narrator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A professional web component for article narration powered by Uplift AI",
   "main": "dist/uplift-narrator.js",
   "module": "dist/uplift-narrator.esm.js",
